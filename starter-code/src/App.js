@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import IdCard from './components/IdCard'
+import Greetings from './components/Greetings'
 
 class App extends Component {
     render() {
@@ -25,6 +26,8 @@ class App extends Component {
                 {/* TODO: Use the IdCard component */}
 
                 <h1>Greetings</h1>
+                <Greetings lang="de">Ludwig</Greetings>
+                <Greetings lang="es">Luis</Greetings>
                 {/* TODO: Use the Greetings component */}
             </div>
         )
